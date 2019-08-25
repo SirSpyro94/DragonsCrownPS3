@@ -25,7 +25,7 @@ namespace DragonsCrownPS3
             IO = FileIO.OpenIO("Open File", "|SAVE0.DAT", true);
             if (IO != null)
             {
-                textBox1.Text = IO.SeekNReadInt32(0).ToString("X4");
+                txtCurrent.Text = IO.SeekNReadInt32(0).ToString("X4");
             }
         }
 
@@ -39,7 +39,7 @@ namespace DragonsCrownPS3
                 byte[] buffer = IO.ReadBytes(0x20EB14);
                 uint crc = Crc32.Compute(buffer);
                 IO.Offset = 0;
-                textBox2.Text = crc.ToString("X4");
+                txtComputed.Text = crc.ToString("X4");
                 IO.Close();
                 MessageBox.Show("Saved!");
             }

@@ -30,8 +30,8 @@
         {
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCurrent = new System.Windows.Forms.TextBox();
+            this.txtComputed = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -56,19 +56,19 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // textBox1
+            // txtCurrent
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtCurrent.Location = new System.Drawing.Point(104, 43);
+            this.txtCurrent.Name = "txtCurrent";
+            this.txtCurrent.Size = new System.Drawing.Size(100, 20);
+            this.txtCurrent.TabIndex = 2;
             // 
-            // textBox2
+            // txtComputed
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 69);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtComputed.Location = new System.Drawing.Point(104, 69);
+            this.txtComputed.Name = "txtComputed";
+            this.txtComputed.Size = new System.Drawing.Size(100, 20);
+            this.txtComputed.TabIndex = 3;
             // 
             // label1
             // 
@@ -95,8 +95,8 @@
             this.ClientSize = new System.Drawing.Size(212, 102);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtComputed);
+            this.Controls.Add(this.txtCurrent);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnLoad);
             this.MaximizeBox = false;
@@ -113,8 +113,8 @@
 
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCurrent;
+        private System.Windows.Forms.TextBox txtComputed;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
