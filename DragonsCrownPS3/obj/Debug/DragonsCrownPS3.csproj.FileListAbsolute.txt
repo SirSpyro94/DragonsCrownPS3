@@ -1,0 +1,9 @@
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\DragonsCrownPS3\bin\Debug\DragonsCrownPS3.exe.config
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\bin\Debug\DragonsCrownPS3.exe.config
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\bin\Debug\DragonsCrownPS3.exe
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\bin\Debug\DragonsCrownPS3.pdb
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\obj\Debug\DragonsCrownPS3.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\obj\Debug\DragonsCrownPS3.Properties.Resources.resources
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\obj\Debug\DragonsCrownPS3.csproj.GenerateResource.Cache
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\obj\Debug\DragonsCrownPS3.exe
+C:\Users\Mike\Documents\GitHub\DragonsCrownPS3\DragonsCrownPS3\obj\Debug\DragonsCrownPS3.pdb
