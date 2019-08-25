@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JokerLib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,33 @@ namespace DragonsCrownPS3
         public Main()
         {
             InitializeComponent();
+        }
+
+        private FileIO IO;
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            IO = FileIO.OpenIO("Open File", "|SAVE0.DAT", true);
+            if (IO != null)
+            {
+                textBox1.Text = IO.SeekNReadInt32(0).ToString("X4");
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (IO == null)
+                MessageBox.Show("No file open!");
+            else
+            {
+                IO.Offset = 4;
+                byte[] buffer = IO.ReadBytes(0x20EB14);
+                uint crc = Crc32.Compute(buffer);
+                IO.Offset = 0;
+                textBox2.Text = crc.ToString("X4");
+                IO.Close();
+                MessageBox.Show("Saved!");
+            }
         }
     }
 }
